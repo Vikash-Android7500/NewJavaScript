@@ -1,0 +1,36 @@
+Basic Operators:
+
+a = b + c - d; // Addition, Subtraction.
+a = b * (c / d); // Multiplication, Division.
+x = 10 % 4; // Modulo, 10 / 4 Remainder = 2.
+a++; b--; // Postfix Increment and Decrement.
+
+
+Bitwise Operators:
+
+& AND 5 & 1 (0101 & 0001) 1 (1)
+| OR 5 | 1 (0101 | 0001) 5 (101)
+~ NOT ~ 5 (~0101) 10 (1010)
+^ XOR 5 ^ 1 (0101 ^ 0001) 4 (100)
+<< Left Shift 5 << 1 (0101 << 1) 10 (1010)
+>> Right Shift 5 >> 1 (0101 >> 1) 2 (10)
+>>> Zero Fill Right Shift 5 >>> 1 (0101 >>> 1) 2 (10)
+
+
+Arithmetic Operators:
+
+x * (y + z) // grouping
+x = 4 // assignment
+x == y // equals
+x != y // unequal
+x === y // strict equal
+x !== y // strict unequal
+x < y x > y // less and greater than
+x <= y x >= y // less or equal, greater or equal
+x += y // x = x + y
+x && y // logical AND
+x || y // logical OR
+!(x == y) // logical NOT
+x != y // not equal
+typeof x // type of x
+x << 2 x >> 3 // shifting
